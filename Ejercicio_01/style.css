@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header input{
+    width: 450px;
+    padding: 10px;
+    outline: 0;
+    border: 1px #fff solid;
+    border-radius: 2px;
+}
+
+.btn{
+    width: 150px;
+    display: block;
+    padding: 5px;
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    outline: 0;
+    cursor: pointer;
+    transition: all .1s ease;
+}
+
+.btn:hover{
+    background-color: rgb(26, 110, 26);
+}
+
+/*Estilos para la lista y sus items*/
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #969393;
+    padding: 5px;
+}
+
+#list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.items{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-top: 10px;
+    border-bottom:1px solid #ccc ;
+    justify-content: space-between;
+}
+
+.items p{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.delete-task{
+    width: 100px;
+    border-radius: 2px;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(177, 18, 18);
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all .1s ease-in;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.delete-task:hover{
+    opacity: .75;
+}
