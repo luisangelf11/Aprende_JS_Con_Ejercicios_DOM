@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy - MiniGame</title>
+    <link rel="stylesheet" href="../css/modal.css" />
+    <link rel="stylesheet" href="../css/game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="game">
+        <h3>Modo Fácil (0 - 100)</h3>
+        <input
+          type="number"
+          id="data"
+          class="data"
+          placeholder="Ingresa un número"
+        />
+        <button id="validate">Validar</button>
+        <h4 class="warning" id="warning">El juego ha comenzado</h4>
+        <h4 id="pts-label">0</h4>
+      </div>
+    </div>
+    <div id="modal">
+      <div id="win">
+        <img src="../img/trophy.png" id="logo" alt="trophy" />
+        <h3>FELICIDADES HAS GANADO🎉</h3>
+        <p id="pts"></p>
+        <a href="../index.html" id="btn-close" class="btnClose">Cerrar</a>
+      </div>
+    </div>
+    <script src="../js/easy.js"></script>
+  </body>
+</html>
