@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+#finish {
+  background: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px 10px;
+}
+
+#finish h3,
+p {
+  padding: 10px;
+}
+
+#Grefg {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.btnClose {
+  margin-top: 1rem;
+  outline: 0;
+  background-color: rgb(168, 14, 14);
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.btnClose:hover {
+  opacity: 0.75;
+}
+
+.time{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.time label{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #222;
+}
+
+.time input{
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 250px;
+    transition: all .5s ease-in-out;
+}
+
+.time input:focus{
+    border: 1px solid rgb(69, 108, 228);
+}
+
+.time button{
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    width: 150px;
+    background-color: seagreen;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    font-weight: 700;
+    display: block;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.time button:hover{
+    opacity: .75;
+}
+
+#text-time{
+    padding: 5px;
+    color: #222;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 04 - The Grefg</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="time">
+      <label for="minutes">Tiempo</label>
+      <input type="number" id="minutes" placeholder="Ingrese los minutos" />
+      <button id="start">Empezar</button>
+      <h3 id="text-time">00:00:00</h3>
+    </div>
+    <div id="modal">
+      <div id="finish">
+        <img
+          src="./img/contador-cero-grefg_104.webp"
+          id="Grefg"
+          alt="contador"
+        />
+        <h3>TIEMPO FINALIZADO🎉</h3>
+        <p>
+          El contador al fin llegó a cero!<br />
+          El evento ha terminado chavales!
+        </p>
+        <button id="btn-close" class="btnClose">Cerrar</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
