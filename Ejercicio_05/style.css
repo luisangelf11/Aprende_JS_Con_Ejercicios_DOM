@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.container h2 {
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: fantasy;
+  color:#222;
+}
+
+.anime-list {
+  width: 70%;
+  height: auto;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  grid-gap: 5px;
+}
+
+.loader{
+    width: 80px;
+    height: 80px;
+    display: none;
+    border: 5px solid #ccc;
+    margin: 1rem auto;
+    border-bottom:  5px solid #222;
+    border-radius: 50%;
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+.card{
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.card h3, p, h4{
+    text-align: center;
+    padding: 10px;
+}
+
+.card h3, h4{
+    color: #222;
+    letter-spacing: 5px;
+    font-family: fantasy;
+}
+
+.container p{
+    font-size: 12px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+  
+}
