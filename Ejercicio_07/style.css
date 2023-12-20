@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#data{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    margin:2rem auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+
+#data input{
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    display: block;
+    margin-top: 1rem;
+    transition: all .1s ease-in;
+}
+
+#data input:focus{
+    border: 2px solid royalblue;
+}
+
+#data h3{
+    letter-spacing: 5px;
+    color: #222;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+}
+
+#data button{
+    width: 85%;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    background-color: royalblue;
+    cursor: pointer;
+    color: #fff;
+    display: block;
+    margin-top: .5rem;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+#data button:hover{
+    opacity: .75;
+}
+
+h2{
+    letter-spacing: 5px;
+    color: #222;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.graphic{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin:1rem auto;
+}
+
+.bar-container{
+    width: 70px;
+    margin-left: 20px;
+}
+
+.bar{
+    flex: 10;
+    width: 50px;
+    margin: auto;
+    background-color: royalblue;
+}
+
+.bar-container p{
+    text-align: center;
+}
