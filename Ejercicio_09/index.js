@@ -32,7 +32,7 @@ const getData = async (id) => {
         $profile.innerHTML = '';
         $stats.innerHTML = '';
 
-        //Apartado de el perfil
+        //Apartado del perfil
         const $image = document.createElement('img');
         $image.src = json.sprites.other.home.front_default !== null ? json.sprites.other.home.front_default : json.sprites.front_default;
         $image.alt = json.name;
